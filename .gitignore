@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (too large for GitHub; download from Kaggle instead)
+data/
+*.zip
+
+# Runtime output
+logs/
+
+# Secrets and local config
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
